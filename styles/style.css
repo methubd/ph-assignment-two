@@ -431,7 +431,7 @@ footer p {
     .overview-container {
         width: 100%;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 10px;
         text-align: center;
     }
 
@@ -443,7 +443,7 @@ footer p {
     }
     .section-heading p {
         width: 80%;
-        margin: 0;
+        margin: auto;
         text-align: center;
     }
     .overview-box {
