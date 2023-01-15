@@ -1,0 +1,338 @@
+* {
+    margin: 0 0 0 0;
+}
+
+:root {
+    --primary-color: #FF900E;
+    --heading-color: #131313;
+    --description-color: #727272;
+    --primary-width: 1440px;
+    --secondary-width: 1350px;
+}
+
+body {
+    font-family: 'Work Sans';
+    margin: auto;
+}
+
+/* ---------------------
+    Uility Styles 
+------------------------*/
+
+
+/* ---------------------
+    Header Styles 
+------------------------*/
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    width: var(--primary-width);
+    padding-top: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.web-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* ---------------------
+    Banner Styles 
+------------------------*/
+.banner-container {
+    text-align: center;
+    margin: auto;
+    width: var(--primary-width);
+    margin-top: 100px;
+}
+
+.banner-container a {
+    text-decoration: none;
+}
+
+.banner-title {
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    color: var(--description-color);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn-explore {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+}
+
+.banner-image {
+    width: var(--primary-width);
+    padding: 80px;
+}
+
+/* ---------------------
+    Feature Styles 
+------------------------*/
+.feature-container {
+    display: flex;
+    align-items: center;
+    width: var(--secondary-width);
+    margin: auto;
+    margin-top: 84px;
+}
+
+.feature-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-photos img {
+    width: 342px;
+    height: 342px;
+}
+
+.feature-texts {
+    margin-left: 73px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--description-color);
+    margin-bottom: 40px;
+}
+
+.feature-texts a {
+    text-decoration: none;
+}
+
+/* --------------------------
+    Second Feature Styles 
+-----------------------------*/
+.s-feature-container {
+    display: flex;
+    align-items: center;
+    width: var(--primary-width);
+    margin: auto;
+    margin-top: 84px;
+}
+
+.s-feature-texts {}
+
+.s-feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid var(--primary-color);
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.s-feature-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--description-color);
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* Feature box styles */
+.s-feature-box {
+    padding: 30px 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(82, 76, 76, 0.2);
+    margin-top: 20px;
+}
+
+.s-feature-box-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--heading-color);
+    padding-bottom: 10px;
+}
+
+.s-feature-box-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--description-color);
+    line-height: 26px;
+}
+
+/* End Feature box styles */
+
+.s-feature-image {
+    margin-left: 140px;
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+
+.btn-experience {
+    color: #ffffff;
+    position: relative;
+    top: -140px;
+    left: -100px;
+    border: none;
+    width: 342px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-experience:hover {
+    background-color: var(--description-color);
+    color: var(--primary-color);
+}
+
+/* --------------------------
+    Some Facts Section Style 
+-----------------------------*/
+.overview-container {
+    width: var(--primary-width);
+    margin: auto;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.section-heading h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.section-heading p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--description-color);
+    width: 542px;
+}
+
+.overview-sub-container {
+    display: flex;
+    justify-content: center;
+}
+
+.overview-box {
+    text-align: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    margin: 100px 50px;
+    transition: 0.3s;
+}
+
+.overview-box:hover {
+    border: 1px solid var(--description-color);
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.overview-box img {
+    width: 45.22px;
+    height: 45.22px;
+    padding-top: 45px;
+}
+
+.overview-box img:hover {
+    rotate: -10deg;
+}
+
+.overview-box h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--heading-color);
+}
+
+.overview-box p {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--description-color);
+}
+
+/* --------------------------
+    Sponsor Styles 
+-----------------------------*/
+.sponsor-container {
+    text-align: center;
+    width: var(--primary-width);
+    margin: auto;
+}
+
+.sponsor-container h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.sponsor-container p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--description-color);
+    width: 542px;
+    margin: auto;
+}
+
+.sponsor-logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.sponsor-logo-container img {
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.sponsor-logo-container img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+/* --------------------------
+    Footer Styles 
+-----------------------------*/
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 50px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 20px;
+}
