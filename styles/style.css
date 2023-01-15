@@ -147,6 +147,7 @@ header nav a {
 -----------------------------*/
 .s-feature-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: var(--primary-width);
     margin: auto;
@@ -206,8 +207,8 @@ header nav a {
 .btn-experience {
     color: #ffffff;
     position: relative;
-    top: -140px;
-    left: -100px;
+    top: -50px;
+    left: 10px;
     border: none;
     width: 342px;
     height: 200px;
